@@ -2,31 +2,42 @@
 <html lang="th">
 <head>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First DevOps Project</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+
     <style>
-        body { font-family: 'Sarabun', sans-serif; text-align: center; margin-top: 50px; background: #f4f4f9; }
-        
-        h1 { color: #2ea44f; transition: 0.3s; cursor: pointer; }
-        h1:hover { color: #1a7f37; transform: scale(1.05); }
-        
-        .student-name { 
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background: #fff;
-            border-radius: 50px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            color: #ff4757;
-            font-weight: bold;
+        body { 
+            /* เปลี่ยนมาใช้ฟอนต์ Sarabun */
+            font-family: 'Sarabun', sans-serif; 
+            text-align: center; 
+            margin-top: 50px; 
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 { 
+            color: #2ea44f; 
+            font-size: 3.5rem; /* ขนาดใหญ่ขึ้นนิดหน่อยตามสไตล์ Sarabun */
+            font-weight: 700; 
+        }
+        p { 
+            font-size: 1.8rem; 
+            color: #444; 
+        }
+        small {
+            font-size: 1rem;
+            color: #888;
         }
     </style>
 </head>
 <body>
     <h1>ยินดีต้อนรับสู่โลกของ DevOps</h1>
     <p>โปรเจกต์นี้กำลังรันด้วยระบบ CI/CD อัตโนมัติ</p>
-    
-    <div class="student-name">
-        ชื่อ-นามสกุล: มินทร์ตรายา เจริญผล | รหัสนักศึกษา: 68319010026
-    </div>
+    <hr style="width: 40%; border: 0.5px solid #ccc; margin: 30px auto;">
+    <small>สร้างด้วย ❤️ บน GitHub</small>
 </body>
 </html>
